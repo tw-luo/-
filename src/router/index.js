@@ -159,21 +159,5 @@ export default new Router({
         }
       ]
     },
-
-    //图书管理
-    
-    {
-      path: '/booksManage',component:Index,
-      name: '图书管理',
-      children: [
-        { path: 'booksList', component: BooksList ,name: '图书列表' },
-        { path: 'bookAdd', component: BookAdd ,name: '图书添加' },
-        { path: 'bookUpdate', component: BookUpdate ,name: '图书修改' }, 
-    ]
-  },
-
-
-
-
   ]
 })

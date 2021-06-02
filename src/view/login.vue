@@ -1,7 +1,7 @@
 <template>
 	<div id="login">    
 		<div class="login" >
-      <h2>餐饮后台管理系统</h2>
+      <h2>11饭店信息管理系统</h2>
       <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm" >
           
           <el-form-item label="用户名" prop="username">
@@ -17,9 +17,6 @@
           </el-form-item>
 
       </el-form>
-      <br>
-      
-      <div>测试帐号为:admin 密码：123456</div>
 		</div>
 	</div>
 	
