@@ -10,81 +10,98 @@
 
 const vip = {
   state: {
-  	"vipData": [
-  		{
-  			"vipID": "001",
-  			"vipName": "张三",
-  			"vipPhone": "13716515156",
-  			"vipJoinDate": "2017-09-22",
-  			"vipScore": "640",
-  			"vipGrade": "铜",
-  			"vipDiscount": "9折"
-  		},{
-  			"vipID": "002",
-  			"vipName": "张三",
-  			"vipPhone": "13826468745",
-  			"vipJoinDate": "2016-08-15",
-  			"vipScore": "650",
-  			"vipGrade": "铜",
-  			"vipDiscount": "9折"
-  		},{
-  			"vipID": "003",
-  			"vipName": "张三",
-  			"vipPhone": "13906547485",
-  			"vipJoinDate": "2010-02-26",
-  			"vipScore": "580",
-  			"vipGrade": "铜",
-  			"vipDiscount": "9折"
-  		},{
-  			"vipID": "604",
-  			"vipName": "张三",
-  			"vipPhone": "13526484565",
-  			"vipJoinDate": "2013-06-28",
-  			"vipScore": "1000",
-  			"vipGrade": "银",
-  			"vipDiscount": "8折"
-  		},{
-  			"vipID": "205",
-  			"vipName": "张三",
-  			"vipPhone": "13357896952",
-  			"vipJoinDate": "2010-05-16",
-  			"vipScore": "1330",
-  			"vipGrade": "金",
-  			"vipDiscount": "7折"
-  		},{
-  			"vipID": "006",
-  			"vipName": "张三",
-  			"vipPhone": "13985296325",
-  			"vipJoinDate": "2011-04-23",
-  			"vipScore": "610",
-  			"vipGrade": "铜",
-  			"vipDiscount": "9折"
-  		},{
-  			"vipID": "007",
-  			"vipName": "张三",
-  			"vipPhone": "13718515156",
-  			"vipJoinDate": "2017-05-22",
-  			"vipScore": "1200",
-  			"vipGrade": "银",
-  			"vipDiscount": "8折"
-  		},{
-  			"vipID": "008",
-  			"vipName": "张三",
-  			"vipPhone": "13526468745",
-  			"vipJoinDate": "1996-08-15",
-  			"vipScore": "625",
-  			"vipGrade": "铜",
-  			"vipDiscount": "9折"
-  		},{
-  			"vipID": "009",
-  			"vipName": "张三5",
-  			"vipPhone": "13306547485",
-  			"vipJoinDate": "2015-02-26",
-  			"vipScore": "360",
-  			"vipGrade": "铜",
-  			"vipDiscount": "9折"
-  		}
-  	]
+	"vipData": [
+		{
+			"vipID": "1",
+			"vipName": "qtSMz",
+			"vipPhone": "17436898972",
+			"vipJoinDate": "2011510",
+			"vipScore": "789",
+			"vipGrade": "Gold",
+			"vipDiscount": "60%"
+		},
+		{
+			"vipID": "2",
+			"vipName": "AXNfL",
+			"vipPhone": "09584732925",
+			"vipJoinDate": "2013818",
+			"vipScore": "796",
+			"vipGrade": "Gold",
+			"vipDiscount": "60%"
+		},
+		{
+			"vipID": "3",
+			"vipName": "Vsrrt",
+			"vipPhone": "16764063191",
+			"vipJoinDate": "2010118",
+			"vipScore": "103",
+			"vipGrade": "Brozon",
+			"vipDiscount": "80%"
+		},
+		{
+			"vipID": "4",
+			"vipName": "PWdry",
+			"vipPhone": "46016567107",
+			"vipJoinDate": "2016107",
+			"vipScore": "693",
+			"vipGrade": "Gold",
+			"vipDiscount": "60%"
+		},
+		{
+			"vipID": "5",
+			"vipName": "JDqsO",
+			"vipPhone": "05731534471",
+			"vipJoinDate": "2010918",
+			"vipScore": "352",
+			"vipGrade": "Sliver",
+			"vipDiscount": "70%"
+		},
+		{
+			"vipID": "6",
+			"vipName": "NMTBl",
+			"vipPhone": "33563775203",
+			"vipJoinDate": "2017212",
+			"vipScore": "724",
+			"vipGrade": "Brozon",
+			"vipDiscount": "80%"
+		},
+		{
+			"vipID": "7",
+			"vipName": "nWjex",
+			"vipPhone": "34266953175",
+			"vipJoinDate": "2011719",
+			"vipScore": "62",
+			"vipGrade": "Brozon",
+			"vipDiscount": "80%"
+		},
+		{
+			"vipID": "8",
+			"vipName": "mhEmr",
+			"vipPhone": "13844283378",
+			"vipJoinDate": "20181017",
+			"vipScore": "661",
+			"vipGrade": "Gold",
+			"vipDiscount": "60%"
+		},
+		{
+			"vipID": "9",
+			"vipName": "GXSfl",
+			"vipPhone": "85833681894",
+			"vipJoinDate": "2010523",
+			"vipScore": "206",
+			"vipGrade": "Brozon",
+			"vipDiscount": "80%"
+		},
+		{
+			"vipID": "10",
+			"vipName": "YiEQx",
+			"vipPhone": "87886157557",
+			"vipJoinDate": "2011920",
+			"vipScore": "111",
+			"vipGrade": "Gold",
+			"vipDiscount": "60%"
+		}
+	]
   },
   mutations: {
       SET_VIPDATE: (state, newvipData) => {

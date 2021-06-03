@@ -11,11 +11,11 @@ const person = {
   state: {
     personInfo:{
       username:"admin",
-      trueName:"李四",
+      trueName:"蔡徐坤",
       sex:"man",
       job:"店长",
-      email:"Don123@qq.com",
-      introduction:'我的外号叫小四,呵呵!我的爱好是:听音乐、看书、打篮球。'
+      email:"sample@qq.com",
+      introduction:'我叫蔡徐坤,我的爱好是唱、跳、rap、篮球。'
     }
   },
 
